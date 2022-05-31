@@ -1,0 +1,71 @@
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.exe
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.deps.json
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.runtimeconfig.json
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.dll
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.pdb
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.AssemblyReference.cache
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Properties.Resources.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.GenerateResource.cache
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.AssemblyInfoInputs.cache
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.AssemblyInfo.cs
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.dll
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\refint\PunchIn System.dll
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.pdb
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.genruntimeconfig.cache
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\ref\PunchIn System.dll
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.System_Choose.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Activity_background_system.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Class_PunchIn.class_choose.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Login.Login_Form.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.ActivityList.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.ActivityPageSignIn.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Notification_Setting.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Event.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Work.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Class.resources
+C:\Users\Sam\Desktop\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\Management.Form1.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.exe
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.deps.json
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.runtimeconfig.json
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\PunchIn System.pdb
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.AssemblyReference.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\Management.Form1.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.ActivityList.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Activity_background_system.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Notification_Setting.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Class.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Event.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Work.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Class_PunchIn.class_choose.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Login.Login_Form.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Properties.Resources.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.System_Choose.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.GenerateResource.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.AssemblyInfoInputs.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.AssemblyInfo.cs
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.CoreCompileInputs.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\refint\PunchIn System.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.pdb
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.genruntimeconfig.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\ref\PunchIn System.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.ResolveComReference.cache
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\ExcelDataReader.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\LibUsbDotNet.LibUsbDotNet.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\NPOI.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn System.csproj.CopyComplete
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.ActivityPageSignIn.resources
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\System.Data.OleDb.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+C:\Users\rex\Downloads\PunchIn_System\PunchIn System\PunchIn System\obj\Debug\net6.0-windows\PunchIn_System.Activity_Manage_System.Search_Class_Before_buildclass.resources

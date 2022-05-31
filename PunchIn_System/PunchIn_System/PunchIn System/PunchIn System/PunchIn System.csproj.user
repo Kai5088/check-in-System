@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Account_Manage_System\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\ActivityPageSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Activity_background_system.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\ActivityList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Search_Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Search_Class_Before_buildclass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Search_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Search_Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Activity_Manage_System\Notification_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Class_PunchIn\class_choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="System_Choose\System_Choose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
