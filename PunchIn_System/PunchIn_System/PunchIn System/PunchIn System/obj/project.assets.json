@@ -818,23 +818,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rex\\.nuget\\packages\\": {},
+    "C:\\Users\\Sam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rex\\Downloads\\PunchIn_System\\PunchIn System\\PunchIn System\\PunchIn System.csproj",
+      "projectUniqueName": "D:\\my-project_b\\PunchIn_System\\PunchIn_System\\PunchIn System\\PunchIn System\\PunchIn System.csproj",
       "projectName": "PunchIn System",
-      "projectPath": "C:\\Users\\rex\\Downloads\\PunchIn_System\\PunchIn System\\PunchIn System\\PunchIn System.csproj",
-      "packagesPath": "C:\\Users\\rex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rex\\Downloads\\PunchIn_System\\PunchIn System\\PunchIn System\\obj\\",
+      "projectPath": "D:\\my-project_b\\PunchIn_System\\PunchIn_System\\PunchIn System\\PunchIn System\\PunchIn System.csproj",
+      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+      "outputPath": "D:\\my-project_b\\PunchIn_System\\PunchIn_System\\PunchIn System\\PunchIn System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -900,7 +900,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,6 +1,7 @@
 
 using PunchIn_System;
 using PunchIn_System.Activity_Manage_System;
+using PunchIn_System.Login;
 
 namespace Management
 {
@@ -683,8 +684,10 @@ namespace Management
         private void back_to_ActivityList(object sender, EventArgs e)
         {
             this.Hide();
-            System_Choose system_Choose = new System_Choose();
-            system_Choose.ShowDialog();
+            //System_Choose system_Choose = new System_Choose();
+            //system_Choose.ShowDialog();
+            Login_Form login = new Login_Form();
+            login.ShowDialog();
         }
     }
 }

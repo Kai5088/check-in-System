@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PunchIn_System.Activity_Manage_System;
+using PunchIn_System.Login;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace PunchIn_System.Activity_Manage_System
@@ -127,8 +128,10 @@ namespace PunchIn_System.Activity_Manage_System
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            System_Choose system_Choose = new System_Choose();
-            system_Choose.ShowDialog();
+            //System_Choose system_Choose = new System_Choose();
+            //system_Choose.ShowDialog();
+            Login_Form login = new Login_Form();
+            login.ShowDialog();
             
         }
 

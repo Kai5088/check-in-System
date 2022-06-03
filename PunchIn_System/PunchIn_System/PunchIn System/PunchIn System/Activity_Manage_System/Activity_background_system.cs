@@ -68,7 +68,8 @@ namespace PunchIn_System.Activity_Manage_System
                 excelApp.Cells[1, 2] = "姓名";
                 excelApp.Cells[1, 3] = "簽到時間";
                 excelApp.Cells[1, 4] = "簽退時間";
-                int i = 2;
+
+                /*int i = 2;
                 for (int x = 0; x < listBox2.Items.Count; x++)
                 {
                     if (listBox2.GetSelected(x) == true)
@@ -80,7 +81,7 @@ namespace PunchIn_System.Activity_Manage_System
                         i++;
                         //MessageBox.Show(listBox1.Items[x].ToString());
                     }
-                }
+                }*/
 
                 string path = Directory.GetCurrentDirectory() + @"\excel\";
                 // save the application  
@@ -544,6 +545,13 @@ namespace PunchIn_System.Activity_Manage_System
                 
                 //Console.WriteLine("\t" + line);
             }
+        }
+
+        //搜尋參與人
+        private void label14_Click(object sender, EventArgs e)
+        {
+            Search_participants search_Participants = new Search_participants();
+            search_Participants.ShowDialog();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Management;
+using PunchIn_System.Activity_Manage_System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -80,7 +82,7 @@ namespace PunchIn_System.Login
                     }
 
                 }
-                wBook.SaveAs(path1, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
+                //wBook.SaveAs(path1, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
                 wBook.Close();
                 excelApp.Quit();
 
@@ -91,9 +93,7 @@ namespace PunchIn_System.Login
                 Activity_Manage_System.ActivityPageSignIn.killexcel();
                 if (enter == true)
                 {
-                    this.Hide();
-                    System_Choose system_Choose = new System_Choose();
-                    system_Choose.ShowDialog();
+                    Identify(identity); 
                 }
                 
             }
@@ -103,6 +103,23 @@ namespace PunchIn_System.Login
             
         }
 
+        //判斷登入者身分並跳轉至屬於該身分的介面
+        private void Identify(string identity)
+        {
+            MessageBox.Show(identity);
+            if(identity.Equals("系統管理員"))
+            {
+                this.Hide();
+                Form1 account_manage_system = new Form1();
+                account_manage_system.ShowDialog();
+            }
+            else
+            {
+                this.Hide();
+                ActivityList activityList = new ActivityList();
+                activityList.ShowDialog();
+            }
+        }
         //離開系統
         private void label3_Click(object sender, EventArgs e)
         {
