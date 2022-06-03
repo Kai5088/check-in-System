@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -39,40 +41,37 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button8 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.button9 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4=new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -91,25 +90,31 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(3, 187);
+            this.panel1.Location = new System.Drawing.Point(2, 187);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 283);
             this.panel1.TabIndex = 8;
-
+            // 
+            // label11
+            // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.Gold;
             this.label11.Location = new System.Drawing.Point(75, 120);
-            this.label11.Name = "label4";
+            this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(72, 19);
             this.label11.TabIndex = 0;
             this.label11.Text = "設定身分:";
-
+            // 
+            // comboBox3
+            // 
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "老師",
+            "老闆"});
             this.comboBox3.Location = new System.Drawing.Point(182, 115);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(164, 27);
             this.comboBox3.TabIndex = 4;
-            this.comboBox3.Items.AddRange(new object[] { "老師", "老闆" });
             // 
             // button10
             // 
@@ -122,15 +127,15 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // textBox2建立帳號
+            // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(182, 78);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(125, 27);
             this.textBox2.TabIndex = 3;
-            this.textBox2.PasswordChar = '*';
             // 
-            // textBox1建立帳號
+            // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(182, 45);
             this.textBox1.Name = "textBox1";
@@ -161,7 +166,7 @@
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(3, 6);
+            this.panel6.Location = new System.Drawing.Point(1, 3);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(798, 284);
             this.panel6.TabIndex = 5;
@@ -180,9 +185,8 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel4.Controls.Add(this.listBox4);
+            this.panel4.Controls.Add(this.textBox4);
             this.panel4.Controls.Add(this.listBox3);
-            this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.label8);
             this.panel4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel4.Location = new System.Drawing.Point(2, 187);
@@ -190,67 +194,45 @@
             this.panel4.Size = new System.Drawing.Size(798, 286);
             this.panel4.TabIndex = 2;
             // 
-            // listBox4停用
+            // textBox4
             // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 19;
-            this.listBox4.Location = new System.Drawing.Point(453, 46);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(164, 232);
-            this.listBox4.TabIndex = 4;
+            this.textBox4.Location = new System.Drawing.Point(156, 23);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(268, 27);
+            this.textBox4.TabIndex = 5;
             // 
-            // listBox3使用中
+            // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 19;
-            this.listBox3.Location = new System.Drawing.Point(133, 46);
+            this.listBox3.Location = new System.Drawing.Point(156, 63);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(161, 232);
+            this.listBox3.Size = new System.Drawing.Size(534, 213);
             this.listBox3.TabIndex = 3;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Maiandra GD", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Gold;
-            this.label9.Location = new System.Drawing.Point(324, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 20);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "已停用帳號:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Modern No. 20", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Gold;
-            this.label8.Location = new System.Drawing.Point(22, 25);
+            this.label8.Location = new System.Drawing.Point(3, 25);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 20);
+            this.label8.Size = new System.Drawing.Size(147, 20);
             this.label8.TabIndex = 0;
-            this.label8.Text = "已開通帳號:";
+            this.label8.Text = "輸入欲查詢帳號:";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Controls.Add(this.panel6);
-            //this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Controls.Add(this.button8);
             this.panel2.Controls.Add(this.label6);
             this.panel2.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel2.Location = new System.Drawing.Point(3, 184);
+            this.panel2.Location = new System.Drawing.Point(2, 187);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(800, 286);
             this.panel2.TabIndex = 5;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(188, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(164, 27);
-            this.comboBox1.TabIndex = 4;
             // 
             // listBox1
             // 
@@ -284,49 +266,66 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "選擇要復用的帳號:";
             // 
-            // panel5 名單匯入
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(188, 27);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(164, 27);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel5.Controls.Add(this.label13);
-            this.panel5.Controls.Add(this.label14); 
+            this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.comboBox4);
             this.panel5.Controls.Add(this.button9);
             this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.textBox3);
             this.panel5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel5.Location = new System.Drawing.Point(0, 187);
+            this.panel5.Location = new System.Drawing.Point(0, 190);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(800, 286);
             this.panel5.TabIndex = 2;
-
+            // 
+            // label13
+            // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label13.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.Gold;
             this.label13.Location = new System.Drawing.Point(52, 89);
-            this.label13.Name = "label7";
-            this.label13.Size = new System.Drawing.Size(50, 27);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(55, 24);
             this.label13.TabIndex = 0;
             this.label13.Text = "檔案:";
-
+            // 
+            // label14
+            // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label14.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.Color.Gold;
             this.label14.Location = new System.Drawing.Point(52, 120);
-            this.label14.Name = "label7";
-            this.label14.Size = new System.Drawing.Size(500, 27);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(55, 24);
             this.label14.TabIndex = 0;
             this.label14.Text = "類別:";
-
+            // 
+            // comboBox4
+            // 
             this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "一般",
+            "班級",
+            "上班"});
             this.comboBox4.Location = new System.Drawing.Point(132, 120);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(164, 27);
             this.comboBox4.TabIndex = 4;
-            this.comboBox4.Items.AddRange(new object[] { "一般","班級", "上班" });
             // 
-            // button9 名單匯入
+            // button9
             // 
             this.button9.ForeColor = System.Drawing.Color.Teal;
             this.button9.Location = new System.Drawing.Point(416, 181);
@@ -337,7 +336,7 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button6 名單匯入
+            // button6
             // 
             this.button6.ForeColor = System.Drawing.Color.Teal;
             this.button6.Location = new System.Drawing.Point(132, 181);
@@ -348,7 +347,7 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // textBox3 名單匯入
+            // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(132, 89);
             this.textBox3.Name = "textBox3";
@@ -358,22 +357,13 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            //this.panel3.Controls.Add(this.comboBox2);
             this.panel3.Controls.Add(this.listBox2);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.button7);
-            this.panel3.Location = new System.Drawing.Point(3, 187);
+            this.panel3.Location = new System.Drawing.Point(2, 184);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(798, 286);
             this.panel3.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(209, 31);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 27);
-            this.comboBox2.TabIndex = 7;
             // 
             // listBox2
             // 
@@ -381,9 +371,9 @@
             this.listBox2.ItemHeight = 19;
             this.listBox2.Location = new System.Drawing.Point(209, 81);
             this.listBox2.Name = "listBox2";
+            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.listBox2.Size = new System.Drawing.Size(157, 194);
             this.listBox2.TabIndex = 6;
-            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             // 
             // label7
             // 
@@ -407,6 +397,14 @@
             this.button7.Text = "停用";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(209, 31);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(157, 27);
+            this.comboBox2.TabIndex = 7;
             // 
             // button1
             // 
@@ -562,8 +560,8 @@
             this.Controls.Add(this.button11);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.panel5);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
@@ -617,7 +615,6 @@
         private Label label7;
         private Button button7;
         private Panel panel4;
-        private Label label9;
         private Label label8;
         private Panel panel5;
         private Button button6;
@@ -634,9 +631,9 @@
         private ListBox listBox1;
         private ComboBox comboBox2;
         private ListBox listBox2;
-        private ListBox listBox4;
         private ListBox listBox3;
         private Button button11;
         private Button button12;
+        private TextBox textBox4;
     }
 }

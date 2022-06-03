@@ -417,9 +417,13 @@ namespace Management
             panel5.Hide();
             panel6.Hide();
             this.listBox3.Items.Clear();
-            this.listBox4.Items.Clear();
+
+            //this.listBox4.Items.Clear();
+
             this.listBox3.Refresh();
-            this.listBox4.Refresh();
+
+            //this.listBox4.Refresh();
+
             try
             {
                 Excel.Application excelApp;
@@ -462,7 +466,7 @@ namespace Management
                         }
                         if (excelApp.Cells[j, 3].Value == "°±¥Î")
                         {
-                            listBox4.Items.Add(excelApp.Cells[j, 1].Value);
+                            //listBox4.Items.Add(excelApp.Cells[j, 1].Value);
                         }
                         
                     }
